@@ -28,6 +28,25 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="client\src\actions\itemActions.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="client\src\actions\types.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="client\src\App.js" />
+    <Compile Include="client\src\App.test.js" />
+    <Compile Include="client\src\index.js" />
+    <Compile Include="client\src\reducers\index.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="client\src\reducers\itemReducer.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="client\src\serviceWorker.js" />
+    <Compile Include="client\src\Store.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="models\Item.js">
       <SubType>Code</SubType>
     </Compile>
@@ -39,6 +58,9 @@
     <Content Include="client\package-lock.json" />
     <Content Include="client\package.json" />
     <Content Include="client\README.md" />
+    <Content Include="client\src\App.css" />
+    <Content Include="client\src\index.css" />
+    <Content Include="client\src\logo.svg" />
     <Content Include="package-lock.json" />
     <Content Include="package.json" />
     <Content Include="README.md" />
@@ -48,6 +70,8 @@
     <Folder Include="client\node_modules\" />
     <Folder Include="client\public\" />
     <Folder Include="client\src\" />
+    <Folder Include="client\src\actions\" />
+    <Folder Include="client\src\reducers\" />
     <Folder Include="models\" />
     <Folder Include="routes\" />
     <Folder Include="routes\api\" />
