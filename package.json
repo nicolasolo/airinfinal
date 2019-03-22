@@ -1,12 +1,31 @@
 {
   "name": "airinfinal",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "airinfinal",
   "main": "server.js",
   "author": {
-    "name": ""
+    "name": "nicola solo"
+  },
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently\"npm run server\" \"npm run client\""
   },
   "devDependencies": {
     "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "cookie-parser": "^1.4.4",
+    "debug": "^4.1.1",
+    "express": "^4.16.4",
+    "init": "^0.1.2",
+    "mongodb": "^3.2.1",
+    "mongoose": "^5.4.19",
+    "morgan": "^1.9.1",
+    "pug": "^2.0.3"
   }
 }
