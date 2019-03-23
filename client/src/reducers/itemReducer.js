@@ -1,7 +1,7 @@
 ﻿import { GET_ITEMS, ADD_ITEM, DELETE_ITEM, ITEMS_LOADING } from '../actions/types';
 const initialState = {
     items: [],
-    loading: fale;
+    loading: false
 };
 
 export default function (state = initialState, action) {
@@ -31,6 +31,6 @@ export default function (state = initialState, action) {
                 ...state,
                 loading: true
             };
-            defult: return state;
+            default: return state;
     }
 }
