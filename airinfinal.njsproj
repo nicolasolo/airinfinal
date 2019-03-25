@@ -28,6 +28,9 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="client\src\actions\prova2Actions.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="client\src\components\AppNav.js">
       <SubType>Code</SubType>
     </Compile>
@@ -42,6 +45,9 @@
     <Compile Include="client\src\components\Cards.js">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="client\src\components\Cards2.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="client\src\components\Jumbotron.js">
       <SubType>Code</SubType>
     </Compile>
@@ -52,6 +58,9 @@
     <Compile Include="client\src\reducers\itemReducer.js">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="client\src\reducers\prova2Reducer.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="client\src\serviceWorker.js" />
     <Compile Include="client\src\Store.js">
       <SubType>Code</SubType>
@@ -59,7 +68,13 @@
     <Compile Include="models\Item.js">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="models\Prova2.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="routes\api\items.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="routes\api\prova2.js">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="server.js" />

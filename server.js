@@ -3,12 +3,15 @@ const mongoose = require('mongoose');
 const path = require('path');
 const bodyParser = require('body-parser');
 const items = require('./routes/api/items');
+
+const prova2 = require('./routes/api/prova2');
 const app = express();
 
 
 app.use(bodyParser.json());
 
 app.use('/api/items', items);
+app.use('/api/prova2', prova2);
 
 if (process.env.NODE_ENV === 'production') {
     app.use(express.static('client/build'));

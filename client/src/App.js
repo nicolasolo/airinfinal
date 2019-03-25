@@ -9,10 +9,13 @@ import path from 'path';
 import AppNav from './components/AppNav';
 import Jumbotron from './components/Jumbotron';
 import Cards from './components/Cards';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap-grid.min.css';
 
 
 import { Provider } from 'react-redux';
 import store from './Store';
+import Cards2 from './components/Cards2';
 
 class App extends Component {
   render() {
@@ -38,7 +41,8 @@ class App extends Component {
        
             <AppNav />
             <Jumbotron />
-            <Cards />
+                  <Cards />
+                  <Cards2 />
 
 
               </div>
